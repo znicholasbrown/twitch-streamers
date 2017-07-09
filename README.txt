@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/znicholasbrown/pen/MmXegv.
-
- 
+An selection of streamers from the Twitch API, utilizing asynchronous calls to view online status, current game, and profile picture. 
