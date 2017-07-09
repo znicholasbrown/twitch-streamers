@@ -1,0 +1,238 @@
+.allerta {
+  /*header text*/
+  font-family: 'Allerta Stencil', sans-serif;
+}
+.geo {
+  /*coded by text*/
+  font-family: 'Geo', sans-serif;
+}
+.josefin {
+  /*body text*/
+  font-family: 'Josefin Sans', sans-serif;
+}
+p {
+  font-size: 16px;
+  line-height: 16px;
+}
+h1 {
+  font-size: 56px;
+}
+h2 {
+  line-height: 24px;
+  font-size: 22px;
+  display: inline;
+  font-family: 'geo', sans-serif;
+  line-height: 36px;
+}
+h3 {
+  font-size: 18px;
+
+}
+h4 {
+  display: inline;
+  font-family: 'geo', sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+.online {
+  border: 2px solid #43A047;
+  box-shadow: 0px 0px 15px #388E3C;
+  background-color: #43A047;
+}
+.offline {
+  border: 2px solid #78909C;
+  box-shadow: 0px 0px 15px #546E7A;
+  opacity: 0.8;
+  background-color: #78909C;
+}
+.all {
+  border: 2px solid #FF5733;
+  box-shadow: 0px 0px 15px #FF5733;
+  opacity: 0.8;
+  background-color: #78909C;
+}
+
+.content_container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.title {
+  background-color: #9C27B0;
+  height: 70px;
+  line-height: 70px;
+  box-shadow: 1px 1px 5px black;
+  color: white;
+  overflow: visible;
+  margin-top: 1.5%;
+}
+#container {
+  position: relative;
+}
+.filters {
+  width: 15%;
+  height: 100px;
+  margin-top: 2.5%;
+}
+.filter {
+  position: relative;
+  left: 25%;
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  text-align: right;
+  background: #9C27B0;
+  margin-left: -25%;
+  margin-top: 2.5%;
+  font-size: 14px;
+  box-shadow: -4px 0px 8px black;
+  transition-timing-function: ease-in-out;
+  transition: all 0.15s;
+}
+.filter:hover {
+  width: 100px;
+  cursor: pointer;
+}
+
+.icons_and_statuses {
+  width: 10%;
+  float: left;
+  height: 100px;
+  margin-top: 2%;
+  border-radius: 10px;
+  margin-left: 15%;
+  position: relative;
+  background-color: transparent;
+}
+  .icons_and_statuses:hover > .online {
+    box-shadow: 0px 0px 30px #388E3C;
+}
+.stream_logos {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  margin-top: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transition-timing-function: ease-in-out;
+  transition: all 0.25s;
+}
+  .stream_logos:hover {
+  margin-top: 2px;
+}
+  .stream_logos:hover + .status_text {
+  display: inline-block;
+  
+}
+
+.stream_descriptions {
+  width: calc(65%);
+  float: right;
+  height: 100px;
+  margin-top: 2%;
+  padding-left: 1.25%; 
+  padding-right: 1.25%;
+  box-shadow: 1px 1px 5px black;
+  margin-right: 8%;
+  overflow: visible;
+  transition-timing-function: ease-in-out;
+  transition: all 0.25s;
+  display: block;
+}
+  .stream_descriptions:hover {
+  margin-right: 7.5%;
+  border-right: 1em solid #9C27B0;
+  
+}
+  .stream_descriptions:hover > .game {
+  visibility: visible;
+  background-color: #9C27B0;
+  box-shadow: 0px 0px 15px #388E3C;
+  color: white;
+}
+  .stream_descriptions:hover > .to_channel {
+  display: inline;
+}
+  .game {
+  visibility: hidden;
+}
+  .to_channel {
+    position: relative;
+    float: right;
+    transform: rotate(90deg) translateY(-4.05em) translateX(100px);
+    margin-top: -62.5px;
+    z-index: 2;
+    font-size: 14px;
+    color: white;
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition: all 0.25s;
+  }
+
+
+.status_text {
+  position: relative;
+  font-size: 10px;
+  margin-left: 25%;
+  top: -7px;
+}
+.status_indicator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: relative;
+  left: 10%;
+  top: 10%;
+  
+}
+
+.credit {
+  height: 50px;
+  color: white; 
+  background-color: #9C27B0;
+  width: 100%;
+  display: inline-block;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+  text-align: center;
+  box-shadow: 1px 1px 5px black;
+  
+  
+}
+
+
+.filter_indicators {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  opacity: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
